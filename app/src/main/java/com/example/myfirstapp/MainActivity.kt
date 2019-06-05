@@ -3,12 +3,15 @@ package com.example.myfirstapp
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.text.format.Time
 import android.util.Log
 import android.view.View
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
+import java.util.*
+import java.util.concurrent.TimeUnit
 
 class MainActivity : AppCompatActivity() {
     var code = ""
@@ -30,7 +33,6 @@ class MainActivity : AppCompatActivity() {
         code += (view as Button).text
         add_text((view as Button).text.toString())
         Log.d("MyLog", "Button pressed")
-
         if (code.length == PASSWORD_LENGTH){
             check()
         }
