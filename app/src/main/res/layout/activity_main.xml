@@ -105,8 +105,7 @@
                     android:layout_height="wrap_content"
                     android:text="⌫"
                     android:id="@+id/delete"
-                    android:textSize="24sp"
-                    android:layout_toRightOf="@id/b0"/>
+                    android:textSize="24sp"/>
         </LinearLayout>
 
 
