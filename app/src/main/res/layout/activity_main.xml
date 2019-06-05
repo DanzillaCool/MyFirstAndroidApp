@@ -27,13 +27,13 @@
 
     <LinearLayout android:layout_width="wrap_content"
                   android:layout_height="wrap_content"
-                  android:orientation="vertical"
+                  android:orientation="horizontal"
                   android:layout_gravity="center_horizontal">
         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                       android:layout_width="wrap_content"
                       android:layout_height="wrap_content"
                       android:layout_gravity="center_horizontal"
-                      android:orientation="horizontal">
+                      android:orientation="vertical">
 
             <Button android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -42,13 +42,13 @@
                     android:textSize="24sp"/>
             <Button android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="2"
-                    android:id="@+id/b2"
+                    android:text="4"
+                    android:id="@+id/b4"
                     android:textSize="24sp"/>
             <Button android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="3"
-                    android:id="@+id/b3"
+                    android:text="7"
+                    android:id="@+id/b7"
                     android:textSize="24sp"/>
         </LinearLayout>
 
@@ -56,12 +56,12 @@
                       android:layout_width="wrap_content"
                       android:layout_height="wrap_content"
                       android:layout_gravity="center_horizontal"
-                      android:orientation="horizontal">
+                      android:orientation="vertical">
 
             <Button android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="4"
-                    android:id="@+id/b4"
+                    android:text="2"
+                    android:id="@+id/b2"
                     android:textSize="24sp"/>
             <Button android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -70,8 +70,13 @@
                     android:textSize="24sp"/>
             <Button android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="6"
-                    android:id="@+id/b6"
+                    android:text="8"
+                    android:id="@+id/b8"
+                    android:textSize="24sp"/>
+            <Button android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:id="@+id/b0"
                     android:textSize="24sp"/>
         </LinearLayout>
 
@@ -79,46 +84,32 @@
                       android:layout_width="wrap_content"
                       android:layout_height="wrap_content"
                       android:layout_gravity="center_horizontal"
-                      android:orientation="horizontal">
+                      android:orientation="vertical">
 
             <Button android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="7"
-                    android:id="@+id/b7"
+                    android:text="3"
+                    android:id="@+id/b3"
                     android:textSize="24sp"/>
             <Button android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="8"
-                    android:id="@+id/b8"
+                    android:text="6"
+                    android:id="@+id/b6"
                     android:textSize="24sp"/>
             <Button android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="9"
                     android:id="@+id/b9"
                     android:textSize="24sp"/>
-        </LinearLayout>
-
-        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                      android:layout_width="wrap_content"
-                      android:layout_height="wrap_content"
-                      android:layout_gravity="center_horizontal"
-                      android:orientation="horizontal">
-
-            <Button android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="0"
-                    android:id="@+id/b0"
-                    android:textSize="24sp"/>
-
             <Button android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="⌫"
                     android:id="@+id/delete"
                     android:textSize="24sp"
                     android:layout_toRightOf="@id/b0"/>
+        </LinearLayout>
 
 
-        </RelativeLayout>
 
     </LinearLayout>
 </LinearLayout>
